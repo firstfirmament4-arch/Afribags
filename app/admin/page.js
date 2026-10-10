@@ -149,7 +149,7 @@ function Dashboard({ t }) {
             <Camera size={17} className="text-terracotta" />
           )}
           <span className="text-sm text-inkSoft">{preview ? t.admin.changePhoto : t.admin.photo}</span>
-          <input type="file" accept="image/*" capture="environment" onChange={handleFile} className="hidden" />
+          <input type="file" accept="image/*" onChange={handleFile} className="hidden" />
         </label>
 
         <input
